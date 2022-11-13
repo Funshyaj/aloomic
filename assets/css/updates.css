@@ -950,6 +950,10 @@ top: -1.1765625px;
 background-clip: text;
 }
 
+.Industry-stick{
+    position: sticky;
+    top:0;
+}
 
 .Industry__content{
     position: -webkit-sticky;
@@ -1011,7 +1015,7 @@ color: #FCFCFC;
     position: absolute;
     top: 100px;
     top: 0vw;
-    left: 0;
+    left: 50px;
     width: 15vw;
     transform: rotate(90deg);
 
@@ -1019,7 +1023,7 @@ color: #FCFCFC;
     .endless--two{
    position: absolute;
     top: 0vw;
-    right: 0;
+    right: 50px;
     width: 15vw;
     transform: rotate(90deg);
   }
