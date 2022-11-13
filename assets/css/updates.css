@@ -152,7 +152,6 @@ text-fill-color: transparent;
 }
 .povide__sideImage{
     display: flex;
-    width: 100%;
     position: sticky;
     top: 87px;
     height: 100%;
@@ -161,7 +160,6 @@ text-fill-color: transparent;
 .Provide__content{
     display: flex;
     justify-content: space-between;
-    width: 100vw;
     margin: 100px 0;
 }
 
