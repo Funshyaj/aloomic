@@ -201,7 +201,7 @@ background: linear-gradient(94.96deg, #FCFCFC 24.08%, rgba(252, 252, 252, 0) 670
 }
 
 .Provide--contentBx .content>p.active{
-    
+     
     /* margin: 25px 0; */
     margin: 3vw 0;
     letter-spacing: -0.02em;
@@ -269,9 +269,9 @@ animation-name: Provide--on;
    font-family: 'Epilogue';
 font-style: normal;
 font-weight: 400;
-font-size: 7vw;
+font-size: 5vw;
 line-height: 37px;
-   margin: 40px 0 35px ;
+   margin: 20px 0 15px ;
    cursor: pointer;
 }
 
@@ -282,6 +282,8 @@ background: linear-gradient(94.96deg, #FCFCFC 24.08%, rgba(252, 252, 252, 0) 670
 
 .Provide--contentBx .content>p{
   width: 100%;
+  font-size: 16px;
+  line-height: 20px;
    
 }
 .Provide__image{
@@ -523,7 +525,7 @@ background-clip: text;
             margin: 100px 0;
         }
         .dse--contentBx.mobile  .content>h1{
-            font-size: 5vw;
+            font-size: 6vw;
         }
 
         .dse--contentBx.mobile  .content>p{
@@ -581,7 +583,7 @@ background-clip: text;
 
 
 .dse--contentBx  .content>h1{
-   margin: 2vw 0 ;
+   margin: 6vw 0 ;
    cursor: pointer;
    width: 75%;
    font-family: 'Playfair Display';

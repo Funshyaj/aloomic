@@ -29,7 +29,6 @@ dseContent.forEach((e ,i) => {
                                 
             }else{
                 dseContentH1[i].nextElementSibling.classList.add('active')
-                console.log(dseContentH1[i].nextElementSibling)
                 dseContentH1.forEach(e=>e.classList.remove('active'))
                 dseContent.forEach(e=>e.classList.remove('active'))
                 dseContentH1[i].classList.toggle('active') 
