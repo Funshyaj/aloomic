@@ -188,7 +188,7 @@ background: linear-gradient(94.96deg, #FCFCFC 24.08%, rgba(252, 252, 252, 0) 670
 
 .Provide--contentBx .content>p{
     font-family: 'Epilogue';
-    font-style: normal;
+    font-style: normal; 
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
@@ -223,6 +223,7 @@ animation-name: Provide--on;
 
 @media only screen and (max-width: 975px) {
 
+
     .partner__content>.hr #mobile-hide{display: none;}
 
     .partner__content #mobile-hide{display: none;}
@@ -233,6 +234,8 @@ animation-name: Provide--on;
     .dse__content{
         display: none}
 .mobile-accordion{display: block;}
+
+
 
     .Provide--section{
         
@@ -297,7 +300,7 @@ background: linear-gradient(94.96deg, #FCFCFC 24.08%, rgba(252, 252, 252, 0) 670
     top: 50%;
     z-index: 0;
     width: 25vw;
-    font-size: 3.5vw;
+    font-size: 1.5vw;
    }
 
     .cir--boeder {
@@ -310,6 +313,8 @@ background: linear-gradient(94.96deg, #FCFCFC 24.08%, rgba(252, 252, 252, 0) 670
         margin: 0;
     
 
+
+}
 
 }
 
@@ -849,7 +854,7 @@ transition: all 1s;
 }
 
 
-@media screen and (max-width: 968px) { 
+@media screen and (max-width: 900px) { 
 
     .cir--boeder{
         width: 25vw;
@@ -878,11 +883,10 @@ margin: 0;
     top: 50%;
     z-index: 0;
     width: 25vw;
-
     font-family: 'Playfair Display';
 font-style: normal;
 font-weight: 400;
-font-size: 3.5vw;
+font-size: 2.5vw;
 line-height: 3vw;
 text-align: center;
 letter-spacing: -0.02em;
