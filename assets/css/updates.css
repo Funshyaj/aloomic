@@ -152,7 +152,7 @@ background-clip: text;
     display: flex;
     position: sticky;
     position: -webkit-sticky;
-    top: 87px;
+    top: 80px;
     height: 100%;
     justify-content: end;
 }
@@ -461,15 +461,15 @@ background-clip: text;
 
 
 .dse--side .side__content{
-    margin-top: 7.5vw;
+    margin-top: 4.5vw;
     margin-left: 7vw;
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 178%;
-    /* or 178% */
-    width: 363px;
+   text-align: justify;
+   
     letter-spacing: -0.02em;
     
     color: #FCFCFC;
@@ -711,15 +711,16 @@ line-height: 47px;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-margin: 0 43.5px;
+margin: 0 50.5px;
 
 }
 .build{
-    /* margin: 100px 0; */
+margin: 100px 50.5px 20px; 
 font-family: 'Epilogue';
 font-style: normal;
 font-weight: 400;
-font-size: 36px !important;
+font-size: 45px !important;
+text-align: center;
 line-height: 37px;
 background: linear-gradient(94.96deg, #FCFCFC 24.08%, rgba(252, 252, 252, 0) 140%);
 -webkit-background-clip: text;
@@ -755,8 +756,9 @@ color: #FCFCFC;
     display: flex;
     justify-content: center;
     color: #fff;
-    height: 50vw;
+    height: 30vw;
     max-height: 600px;
+    margin: 80px 0px 0px;
 
 }
 .partner__content>.hr{
@@ -837,6 +839,9 @@ transition: all 1.2s ;
 }
 
 
+
+
+
 .partner__button{
     height: 100%;
     width: 20vw;
@@ -910,7 +915,7 @@ min-width: 30px;
 
 .Industry--section{
     color: #ffffff;
-    padding: 0 7.91vw ;
+    padding: 0 ;
     display: flex;
     height:100%;
     justify-content: space-between;
@@ -952,14 +957,14 @@ background-clip: text;
 
 .Industry-stick{
     position: sticky;
-    top:0;
+    top:120px;
 }
 
 .Industry__content{
     position: -webkit-sticky;
     position: sticky;
-    top: 70px;
-    padding-top: 25x;
+    top: 120px;
+    padding-top: 25px;
     padding-bottom:25px;
     display: flex;
     flex-direction: column;
@@ -972,10 +977,11 @@ background-clip: text;
     width: 40vw;
     max-width: 400px;
     font-family: 'Epilogue';
+    padding-left: 4vw;
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
-line-height: 119%;
+line-height: 1.5;
 letter-spacing: -0.02em;
 color: #FCFCFC;
 }
@@ -1009,6 +1015,7 @@ color: #FCFCFC;
     display: flex;
     margin-bottom: 235px;
     width: 90%;
+    display: none;
 }
    
     .endless--one{
@@ -1032,8 +1039,8 @@ color: #FCFCFC;
 
         animation: rotation 5s infinite linear;
         transform-origin: center;
-
     }
+
     .endless--two.scroll{
         animation: rotation 5s infinite linear;
         transform-origin: center;
