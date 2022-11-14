@@ -223,7 +223,7 @@ animation-name: Provide--on;
 @media only screen and (max-width: 975px) {
 
     .Provide--section{
-        padding-left: 3vw;
+        
         padding-top: 90px;
         /* width: 100vw; */
 
@@ -257,9 +257,9 @@ animation-name: Provide--on;
    font-family: 'Epilogue';
 font-style: normal;
 font-weight: 400;
-font-size: 36px;
+font-size: 7vw;
 line-height: 37px;
-   margin: 45px 0 ;
+   margin: 40px 0 35px ;
    cursor: pointer;
 }
 
@@ -269,8 +269,8 @@ background: linear-gradient(94.96deg, #FCFCFC 24.08%, rgba(252, 252, 252, 0) 670
 }
 
 .Provide--contentBx .content>p{
-  width: 95%;
-    max-width: 80%;
+  width: 100%;
+   
 }
 .Provide__image{
         /* width: 75%; */
@@ -596,7 +596,7 @@ background-clip: text;
 
 @media only screen and (max-width: 770px) {
     .dse--section {
-        padding-left: 10vw;
+        padding-left: 0;
     }
     .dse--contentBx  .content>h1.active::after{ transform: translate(15vw,0%) scale(0.5) ; }
     .dse--side .side__Header{ height: 10vh; }
@@ -870,7 +870,8 @@ min-width: 30px;
     font-size: 40px;
     }
     .build{
-        font-size: 4vw!important;
+        font-size: 8vw!important;
+        margin: 100px 11.5px 20px;
     }
     
 .partner--content{
@@ -957,7 +958,7 @@ background-clip: text;
 
 .Industry-stick{
     position: sticky;
-    top:120px;
+    top:80px;
 }
 
 .Industry__content{

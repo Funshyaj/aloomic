@@ -7,9 +7,9 @@ let endless=document.querySelectorAll(".Industry--endless img")
 document.addEventListener("scroll", function(){
 
     let m=[]
-    let y = window.innerHeight / 2;
+    let y = window.innerHeight / 1;
     coen.forEach((e ,i) => {
-        e.style.opacity= "0.2"
+        e.style.opacity= "0.1"
         m[i]=Math.abs( e.getBoundingClientRect().y-y)
     }
     )
@@ -25,7 +25,7 @@ document.addEventListener("scroll", function(){
     let m=[]
     let y = window.innerHeight / 2;
     coen.forEach((e ,i) => {
-        e.style.opacity= "0.2"
+        e.style.opacity= "0.1"
         m[i]=Math.abs( e.getBoundingClientRect().y-y)
     }
     )
