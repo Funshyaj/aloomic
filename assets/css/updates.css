@@ -829,15 +829,15 @@ transition: all 1s;
 @media screen and (max-width: 968px) { 
 
     .cir--boeder{
-        width: 25vw;
+        width: 20vw;
     }
         .cir--header{
-            width: 25vw;
-            font-size: 3.5vw;
+            width: 20vw;
+            font-size: 2.5vw;
         }
     
     }
-    
+
 .cir--boeder{
 width: 20vw;
 max-width: 260px;
@@ -1300,13 +1300,13 @@ top: -50px;
 }
 
 .journey__content{
-    margin: 25px 0 40px;
+    margin: 25px 0 10px;
     width: 80vw;
     max-width: 5000x;
     font-family: 'Epilogue';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 18px;
 line-height: 119%;
 letter-spacing: -0.02em;
 color: #FCFCFC;
