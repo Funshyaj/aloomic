@@ -515,6 +515,12 @@ background-clip: text;
 
         .dse__content.mobile{
             display: block;
+            width: 100%;
+            flex-direction: column;
+            gap: 100px;
+            width: 100%;
+            gap: 0vw;
+            margin: 100px 0;
         }
         .dse--contentBx.mobile  .content>h1{
             font-size: 5vw;
@@ -524,8 +530,8 @@ background-clip: text;
             font-family: 'Epilogue';
             font-style: normal;
             font-weight: 400;
-            font-size: 24px;
-            line-height: 30px;
+            font-size: 14px;
+            line-height: 20px;
             letter-spacing: -0.02em;
             height: 0;
             animation-duration: 0.5s;

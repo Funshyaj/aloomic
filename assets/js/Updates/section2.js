@@ -21,10 +21,15 @@ let  blocktwoContent=document.querySelector('.side__content')
 
 dseContent.forEach((e ,i) => {
         e.addEventListener("click", click => {
-            if(dseContentH1[i].classList.contains("active")){
+            if(dseContentH1[i].nextElementSibling.classList.contains('active')){
+                dseContentH1[i].nextElementSibling.classList.remove('active')
+            }
+
+          else if(dseContentH1[i].classList.contains("active")){
                                 
             }else{
-                
+                dseContentH1[i].nextElementSibling.classList.add('active')
+                console.log(dseContentH1[i].nextElementSibling)
                 dseContentH1.forEach(e=>e.classList.remove('active'))
                 dseContent.forEach(e=>e.classList.remove('active'))
                 dseContentH1[i].classList.toggle('active') 
@@ -67,28 +72,8 @@ dseContent.forEach((e ,i) => {
                 )
 
 
-          })
-        })
+            })})
 
- 
-        let cont=document.querySelectorAll('.dse--contentBx .mobile   .content')
-let contp=document.querySelectorAll('.dse--contentBx .mobile .content p')
-    
-cont.forEach((e ,i) => {
-        e.addEventListener("click", click => {
-
-             
-            if(contp[i].classList.contains("active")){
-                contp[i].classList.remove('active')
-            }else{
-                contp.forEach(e=>e.classList.remove('active'))
-             contp[i].classList.toggle('active')
-               
-             
-    
-            }
-          })
-        })
 
 
 
