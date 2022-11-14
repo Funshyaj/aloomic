@@ -4502,11 +4502,20 @@ ul.bestwork-slides li img:nth-child(2) {
 
 .development-page .we__do__para {
     max-width: 33.984375vw;
-    font-size: 1.25vw;
+    font-size: 1.55vw;
     line-height: 1.78;
     letter-spacing: -0.02em;
     animation: 2s fadeIn;
 }
+
+@media only screen and (max-width: 975px) {
+.development-page .we__do__para {
+    max-width: 33.9844vw;
+    font-size: 5.25vw;
+    line-height: 1.78;
+    letter-spacing: -0.02em;
+    animation: 2s ease 0s 1 normal none running fadeIn;
+}}
 
 .development-page .heading__icon-wr,
 .development-page .heading__words {

@@ -826,6 +826,18 @@ transition: all 1s;
 }
 
 
+@media screen and (max-width: 968px) { 
+
+    .cir--boeder{
+        width: 25vw;
+    }
+        .cir--header{
+            width: 25vw;
+            font-size: 3.5vw;
+        }
+    
+    }
+    
 .cir--boeder{
 width: 20vw;
 max-width: 260px;
@@ -1001,7 +1013,9 @@ background-clip: text;
 
 .Industry-stick{
     position: sticky;
-    top:80px;
+    top: 80px;
+    background: rgb(0 0 0 / 90%);
+    z-index: 999;
 }
 
 .Industry__content{
