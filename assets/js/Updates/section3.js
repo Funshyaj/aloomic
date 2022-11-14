@@ -75,7 +75,8 @@ e.addEventListener('click',()=>{
 e.addEventListener('mouseover',()=>{
 
     cir__boeder[i].style.transform=" rotate(-180deg)"
-    partnerContent[i].style.minHeight="10vw"
+    partnerContent[i].style.minHeight="35vw"
+    if(window.outerWidth >=1024){partnerContent[i].style.minHeight="10vw"}
     partnerContent[i].style.maxHeight="19vw"
     partnerContent[i].style.height="100vw"
     partnerContent[i].style.opacity="1";

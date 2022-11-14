@@ -70,7 +70,25 @@ dseContent.forEach((e ,i) => {
           })
         })
 
+ 
+        let cont=document.querySelectorAll('.dse--contentBx .mobile   .content')
+let contp=document.querySelectorAll('.dse--contentBx .mobile .content p')
+    
+cont.forEach((e ,i) => {
+        e.addEventListener("click", click => {
 
+             
+            if(contp[i].classList.contains("active")){
+                contp[i].classList.remove('active')
+            }else{
+                contp.forEach(e=>e.classList.remove('active'))
+             contp[i].classList.toggle('active')
+               
+             
+    
+            }
+          })
+        })
 
 
 

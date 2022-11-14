@@ -99,6 +99,7 @@ top: -1.1765625px;
 
 }
 
+.mobile-accordion{display: none;}
 
 .Provide__main .main_title{
     /* display: none; */
@@ -221,6 +222,17 @@ animation-name: Provide--on;
 
 
 @media only screen and (max-width: 975px) {
+
+    .partner__content>.hr #mobile-hide{display: none;}
+
+    .partner__content #mobile-hide{display: none;}
+
+    .partner__content {
+        margin-top:150px}
+
+    .dse__content{
+        display: none}
+.mobile-accordion{display: block;}
 
     .Provide--section{
         
@@ -484,7 +496,8 @@ background-clip: text;
 
 @media only screen and (max-width: 900px) {
 
-
+ 
+        
     .dse--main .main_title{
     font-size: 6vw;
     line-height: 8vw;
@@ -494,12 +507,44 @@ background-clip: text;
     }
    
     .dse__content{
-        display: flex;
+        display: none;
         width: 100%;
         flex-direction: column;
         gap: 100px;
     }
-    
+
+        .dse__content.mobile{
+            display: block;
+        }
+        .dse--contentBx.mobile  .content>h1{
+            font-size: 5vw;
+        }
+
+        .dse--contentBx.mobile  .content>p{
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 30px;
+            letter-spacing: -0.02em;
+            height: 0;
+            animation-duration: 0.5s;
+            animation-name: Provide--off;
+            overflow: hidden;
+        }
+
+        .dse--contentBx.mobile  .content>p.active{
+            margin: 3vw 0;
+            letter-spacing: -0.02em;
+            /* max-height: 15vw; */
+            height: 100%;
+            animation-duration: 0.5s;
+            animation-name: Provide--on;
+            color: #FCFCFC;
+        }
+
+
+
     .dse--contentBx{
          width: 100%; 
          margin: 0px 0 ;;
@@ -532,7 +577,6 @@ background-clip: text;
 .dse--contentBx  .content>h1{
    margin: 2vw 0 ;
    cursor: pointer;
-   
    width: 75%;
    font-family: 'Playfair Display';
    font-style: normal;
@@ -758,7 +802,6 @@ color: #FCFCFC;
     color: #fff;
     height: 30vw;
     max-height: 600px;
-    margin: 80px 0px 0px;
 
 }
 .partner__content>.hr{
@@ -876,7 +919,7 @@ min-width: 30px;
     
 .partner--content{
     width: 25vw;
-        font-size: 1.7vw;
+        font-size: 12px;
     margin: 0;
     max-width: 90%;
 
@@ -1188,11 +1231,12 @@ top: -75px;
   } 
 
 .Industry--contentBx .content{
-    width: 80vw;
+    width: 90vw;
     height: 100%;
     max-width: 1400px;
+
 padding: 50px 20px;
-margin: 40px 400px;
+margin: 40px 0px;
     box-sizing: border-box;
   } 
 
@@ -1206,7 +1250,7 @@ margin: 40px 400px;
 @media only screen and (max-width: 650px) {
 
 .Industry--section{
-    padding: 0 2vw ;
+    padding: 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
